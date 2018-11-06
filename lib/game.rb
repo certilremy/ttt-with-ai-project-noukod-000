@@ -57,7 +57,7 @@ def initialize(player_1=Players::Human.new("X"),player_2=Players::Human.new("O")
         end
         @board.update(user_input,current_player)
       end
-      
+
 
       def play
 
