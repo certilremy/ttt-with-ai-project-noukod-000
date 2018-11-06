@@ -1,14 +1,8 @@
 module Players
 
-  class Human < Player
-
+  class Computer < Player
     def move(board)
-
-      puts "Where do you want to play?"
-
-      input=gets.strip
-
-      return input
+      rand(9).to_s
 
     end
 
